@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+#index{
+	line-height: 6;
+	
+}
+
+.index_items{
+	width:100%;
+	height: 500px;
+	
+	justify-content: space-around;
+	background-image:  url(photo/IMG_5888~photo.JPG);
+	background-size:  cover;
+	color:  #FFFFFF;
+	flex-direction:  column;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.Index h1{
+	color:#FFFFFF solid #FFFFFF;
+	font-size: 120px ;
+	text-align: center;
+}
+
+.index_items p {
+	font-size: 20px;
+	
+}
+
+.nav_items {
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.nav_items a{
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+
+
+/*ABOUT*/
+#About {
+	
+	padding-top:100px;
+	padding-bottom:300px;
+}
+
+.AAA {
+	display: flex;
+	justify-content: center;
+}
+.About_items {
+	margin-right: 120px;
+}
+		
+#About h1{
+	text-align: center;
+	background-image:  url(写真/neko.png);
+	background-repeat:  no-repeat;
+	background-position: center;
+	height: 80px;
+	line-height: 4;
+}
+
+#About a {
+	text-decoration: none;
+	color:#1c1c1c;
+}
+
+.neko  {
+	display: flex;
+	justify-content: flex-end;
+
+	
+}
+
+.netikoyan{
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+/*Work*/
+#Work {
+	text-align: center;
+	margin-left: auto;
+	margin-right:  auto;
+
+}
+#Work img{
+	width: 100%;
+}
+
+
+
+
+#Work h1{
+	background-image: url(写真/modoruneko.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 80px;
+	line-height: 4;
+	
+}
+
+#Work a{
+	text-decoration: none;
+	color: #1c1c1c;
+}
+
+
+
+.hover {
+	border-bottom: 0.1875em solid #1b5e20;
+	color:#1c1c1c;
+	display:  inline-block;
+	padding: 0.6em 2em;
+	margin: 0 0 1em;
+	cursor; pointer;
+	transition: all 0.3s ease 0s;
+}
+.hover:hover{
+	border-bottom-color:  mediumaquamarine;
+	transform: translatey(0.1875em);
+		
+}
+
+/*Contact*/
+
+#Contact{
+	text-align: center;
+	padding-top:300px;
+	padding-bottom:300px;
+	margin: 0 auto;
+	
+	
+}
+#Contact h1{
+	background-image: url(写真/neko.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 80px;
+	line-height: 4;
+	
+	
+}
+#Contact a {
+	text-decoration: none;
+	color: #1C1C1C;
+}
+
+
+.hover2{
+
+	border-bottom: 0.1875em solid #FFFFFF;
+	color:#1c1c1c;
+	display:  inline-block;
+	padding: 0.6em 2em;
+	margin: 0 0 1em;
+	cursor; pointer;
+	transition: all 0.3s ease 0s;
+}
+.hover2:hover{
+
+	border-bottom-color:  mediumaquamarine;
+	transform: translatey(0.1875em);
+		
+}
+
+
+
+
+#footer {
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #58add0;
+	padding-top: 50px;
+	padding-bottom:50px;
+}
+
+section {
+	background-color:#FFFFFF;
+}
+		section:nth-child(even){
+			background-color: #b1e8ff;
