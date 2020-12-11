@@ -18,7 +18,7 @@ main {
 }
 
 .work-item_work-main_item img {
-	width: 940px;
+	width: 500px;
 }
 
 .work-item_work-main_item p{
@@ -49,8 +49,9 @@ footer p {
 .work-item_work-sub_container {
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-right: -20px;
+	
 }
 
 .work-item_work-sub_item {
@@ -59,4 +60,17 @@ footer p {
 	margin-bottom: 50px;
 }
 
+.sub1 {
+	width: 150px;
+	margin: 0 auto;
+}
 
+.sub2{
+	width: 200px;
+	margin: 0 auto;
+}
+
+.sub3{
+	width: 150px;
+	margin: 0 auto;
+}
